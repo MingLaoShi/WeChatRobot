@@ -1,0 +1,508 @@
+微信机器人ocr模式.py-242-2023-09-29 18:05:35,071-INFO-开始运行！
+微信机器人ocr模式.py-245-2023-09-29 18:05:35,242-INFO-初始化完成
+微信机器人ocr模式.py-221-2023-09-29 18:05:35,245-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:06:32,821-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-223-2023-09-29 18:06:32,821-INFO-获得新消息，正在请求openai：你是谁
+微信机器人ocr模式.py-225-2023-09-29 18:06:32,822-INFO-token:[{'role': 'user', 'content': '你是谁'}]
+微信机器人ocr模式.py-210-2023-09-29 18:06:36,350-INFO-从openai获得回复：我是一个AI助手，被称为GPT-3。我被设计用来回答各种问题和提供帮助。
+微信机器人ocr模式.py-221-2023-09-29 18:06:36,560-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:06:52,870-INFO-识别新消息：太相近的文本会被过滤来着
+微信机器人ocr模式.py-152-2023-09-29 18:06:54,545-INFO-识别新消息：我忘了
+微信机器人ocr模式.py-152-2023-09-29 18:07:34,467-INFO-识别新消息：%小马推荐我晚上吃什么
+微信机器人ocr模式.py-223-2023-09-29 18:07:34,468-INFO-获得新消息，正在请求openai：推荐我晚上吃什么
+微信机器人ocr模式.py-225-2023-09-29 18:07:34,468-INFO-token:[{'role': 'user', 'content': '你是谁'}, <OpenAIObject at 0x224889c5130> JSON: {
+  "role": "assistant",
+  "content": "\u6211\u662f\u4e00\u4e2aAI\u52a9\u624b\uff0c\u88ab\u79f0\u4e3aGPT-3\u3002\u6211\u88ab\u8bbe\u8ba1\u7528\u6765\u56de\u7b54\u5404\u79cd\u95ee\u9898\u548c\u63d0\u4f9b\u5e2e\u52a9\u3002"
+}, {'role': 'user', 'content': '推荐我晚上吃什么'}]
+微信机器人ocr模式.py-210-2023-09-29 18:07:44,430-INFO-从openai获得回复：当然，我可以给你一些建议。晚餐的选择因个人口味和偏好而异，但以下是一些常见的晚餐选择：
+
+1. 烤鸡胸肉配蔬菜：烤鸡胸肉是高蛋白、低脂肪的选择，搭配多种蔬菜可以提供丰富的营养。
+
+2. 炒饭或炒面：选择蔬菜和蛋或鸡肉等蛋白质来源，可以加入适量的低钠酱油或其他调味料增加风味。
+
+3. 鱼肉与烤
+微信机器人ocr模式.py-221-2023-09-29 18:07:44,644-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:07:58,276-INFO-识别新消息：%小马继续
+微信机器人ocr模式.py-223-2023-09-29 18:07:58,277-INFO-获得新消息，正在请求openai：继续
+微信机器人ocr模式.py-225-2023-09-29 18:07:58,277-INFO-token:[{'role': 'user', 'content': '你是谁'}, <OpenAIObject at 0x224889c5130> JSON: {
+  "role": "assistant",
+  "content": "\u6211\u662f\u4e00\u4e2aAI\u52a9\u624b\uff0c\u88ab\u79f0\u4e3aGPT-3\u3002\u6211\u88ab\u8bbe\u8ba1\u7528\u6765\u56de\u7b54\u5404\u79cd\u95ee\u9898\u548c\u63d0\u4f9b\u5e2e\u52a9\u3002"
+}, {'role': 'user', 'content': '推荐我晚上吃什么'}, <OpenAIObject at 0x224889c5730> JSON: {
+  "role": "assistant",
+  "content": "\u5f53\u7136\uff0c\u6211\u53ef\u4ee5\u7ed9\u4f60\u4e00\u4e9b\u5efa\u8bae\u3002\u665a\u9910\u7684\u9009\u62e9\u56e0\u4e2a\u4eba\u53e3\u5473\u548c\u504f\u597d\u800c\u5f02\uff0c\u4f46\u4ee5\u4e0b\u662f\u4e00\u4e9b\u5e38\u89c1\u7684\u665a\u9910\u9009\u62e9\uff1a\n\n1. \u70e4\u9e21\u80f8\u8089\u914d\u852c\u83dc\uff1a\u70e4\u9e21\u80f8\u8089\u662f\u9ad8\u86cb\u767d\u3001\u4f4e\u8102\u80aa\u7684\u9009\u62e9\uff0c\u642d\u914d\u591a\u79cd\u852c\u83dc\u53ef\u4ee5\u63d0\u4f9b\u4e30\u5bcc\u7684\u8425\u517b\u3002\n\n2. \u7092\u996d\u6216\u7092\u9762\uff1a\u9009\u62e9\u852c\u83dc\u548c\u86cb\u6216\u9e21\u8089\u7b49\u86cb\u767d\u8d28\u6765\u6e90\uff0c\u53ef\u4ee5\u52a0\u5165\u9002\u91cf\u7684\u4f4e\u94a0\u9171\u6cb9\u6216\u5176\u4ed6\u8c03\u5473\u6599\u589e\u52a0\u98ce\u5473\u3002\n\n3. \u9c7c\u8089\u4e0e\u70e4"
+}, {'role': 'user', 'content': '继续'}]
+微信机器人ocr模式.py-210-2023-09-29 18:08:07,866-INFO-从openai获得回复：非常抱歉，上一次回答中出现了不完整的内容。以下是继续的晚餐建议：
+
+3. 鱼肉与烤蔬菜：鱼肉富含蛋白质和健康的Omega-3脂肪酸，搭配烤蔬菜可以增加营养和口感。
+
+4. 意大利面：选择全麦或高纤维面食，配以番茄酱和各种蔬菜，再加入一些蛋白质来源如火腿、鸡肉或海鲜，可以制作出美味的意面。
+
+5. 素
+微信机器人ocr模式.py-221-2023-09-29 18:08:08,078-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:08:45,304-INFO-识别新消息：我设置的一次只回复200字，免得流量用太快
+微信机器人ocr模式.py-152-2023-09-29 18:10:03,045-INFO-识别新消息：%小马我要吃饭了
+微信机器人ocr模式.py-223-2023-09-29 18:10:03,046-INFO-获得新消息，正在请求openai：我要吃饭了
+微信机器人ocr模式.py-225-2023-09-29 18:10:03,046-INFO-token:[{'role': 'user', 'content': '推荐我晚上吃什么'}, <OpenAIObject at 0x224889c5730> JSON: {
+  "role": "assistant",
+  "content": "\u5f53\u7136\uff0c\u6211\u53ef\u4ee5\u7ed9\u4f60\u4e00\u4e9b\u5efa\u8bae\u3002\u665a\u9910\u7684\u9009\u62e9\u56e0\u4e2a\u4eba\u53e3\u5473\u548c\u504f\u597d\u800c\u5f02\uff0c\u4f46\u4ee5\u4e0b\u662f\u4e00\u4e9b\u5e38\u89c1\u7684\u665a\u9910\u9009\u62e9\uff1a\n\n1. \u70e4\u9e21\u80f8\u8089\u914d\u852c\u83dc\uff1a\u70e4\u9e21\u80f8\u8089\u662f\u9ad8\u86cb\u767d\u3001\u4f4e\u8102\u80aa\u7684\u9009\u62e9\uff0c\u642d\u914d\u591a\u79cd\u852c\u83dc\u53ef\u4ee5\u63d0\u4f9b\u4e30\u5bcc\u7684\u8425\u517b\u3002\n\n2. \u7092\u996d\u6216\u7092\u9762\uff1a\u9009\u62e9\u852c\u83dc\u548c\u86cb\u6216\u9e21\u8089\u7b49\u86cb\u767d\u8d28\u6765\u6e90\uff0c\u53ef\u4ee5\u52a0\u5165\u9002\u91cf\u7684\u4f4e\u94a0\u9171\u6cb9\u6216\u5176\u4ed6\u8c03\u5473\u6599\u589e\u52a0\u98ce\u5473\u3002\n\n3. \u9c7c\u8089\u4e0e\u70e4"
+}, {'role': 'user', 'content': '继续'}, <OpenAIObject at 0x224889c5250> JSON: {
+  "role": "assistant",
+  "content": "\u975e\u5e38\u62b1\u6b49\uff0c\u4e0a\u4e00\u6b21\u56de\u7b54\u4e2d\u51fa\u73b0\u4e86\u4e0d\u5b8c\u6574\u7684\u5185\u5bb9\u3002\u4ee5\u4e0b\u662f\u7ee7\u7eed\u7684\u665a\u9910\u5efa\u8bae\uff1a\n\n3. \u9c7c\u8089\u4e0e\u70e4\u852c\u83dc\uff1a\u9c7c\u8089\u5bcc\u542b\u86cb\u767d\u8d28\u548c\u5065\u5eb7\u7684Omega-3\u8102\u80aa\u9178\uff0c\u642d\u914d\u70e4\u852c\u83dc\u53ef\u4ee5\u589e\u52a0\u8425\u517b\u548c\u53e3\u611f\u3002\n\n4. \u610f\u5927\u5229\u9762\uff1a\u9009\u62e9\u5168\u9ea6\u6216\u9ad8\u7ea4\u7ef4\u9762\u98df\uff0c\u914d\u4ee5\u756a\u8304\u9171\u548c\u5404\u79cd\u852c\u83dc\uff0c\u518d\u52a0\u5165\u4e00\u4e9b\u86cb\u767d\u8d28\u6765\u6e90\u5982\u706b\u817f\u3001\u9e21\u8089\u6216\u6d77\u9c9c\uff0c\u53ef\u4ee5\u5236\u4f5c\u51fa\u7f8e\u5473\u7684\u610f\u9762\u3002\n\n5. \u7d20"
+}, {'role': 'user', 'content': '我要吃饭了'}]
+微信机器人ocr模式.py-210-2023-09-29 18:10:07,526-INFO-从openai获得回复：好的，希望你有个美味的晚餐！如果你还需要其他帮助，随时告诉我。祝您用餐愉快！
+微信机器人ocr模式.py-221-2023-09-29 18:10:07,738-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:10:43,962-INFO-识别新消息：%小马用更讽刺的语气回答技
+微信机器人ocr模式.py-223-2023-09-29 18:10:43,962-INFO-获得新消息，正在请求openai：用更讽刺的语气回答技
+微信机器人ocr模式.py-225-2023-09-29 18:10:43,962-INFO-token:[{'role': 'user', 'content': '继续'}, <OpenAIObject at 0x224889c5250> JSON: {
+  "role": "assistant",
+  "content": "\u975e\u5e38\u62b1\u6b49\uff0c\u4e0a\u4e00\u6b21\u56de\u7b54\u4e2d\u51fa\u73b0\u4e86\u4e0d\u5b8c\u6574\u7684\u5185\u5bb9\u3002\u4ee5\u4e0b\u662f\u7ee7\u7eed\u7684\u665a\u9910\u5efa\u8bae\uff1a\n\n3. \u9c7c\u8089\u4e0e\u70e4\u852c\u83dc\uff1a\u9c7c\u8089\u5bcc\u542b\u86cb\u767d\u8d28\u548c\u5065\u5eb7\u7684Omega-3\u8102\u80aa\u9178\uff0c\u642d\u914d\u70e4\u852c\u83dc\u53ef\u4ee5\u589e\u52a0\u8425\u517b\u548c\u53e3\u611f\u3002\n\n4. \u610f\u5927\u5229\u9762\uff1a\u9009\u62e9\u5168\u9ea6\u6216\u9ad8\u7ea4\u7ef4\u9762\u98df\uff0c\u914d\u4ee5\u756a\u8304\u9171\u548c\u5404\u79cd\u852c\u83dc\uff0c\u518d\u52a0\u5165\u4e00\u4e9b\u86cb\u767d\u8d28\u6765\u6e90\u5982\u706b\u817f\u3001\u9e21\u8089\u6216\u6d77\u9c9c\uff0c\u53ef\u4ee5\u5236\u4f5c\u51fa\u7f8e\u5473\u7684\u610f\u9762\u3002\n\n5. \u7d20"
+}, {'role': 'user', 'content': '我要吃饭了'}, <OpenAIObject at 0x224889c5190> JSON: {
+  "role": "assistant",
+  "content": "\u597d\u7684\uff0c\u5e0c\u671b\u4f60\u6709\u4e2a\u7f8e\u5473\u7684\u665a\u9910\uff01\u5982\u679c\u4f60\u8fd8\u9700\u8981\u5176\u4ed6\u5e2e\u52a9\uff0c\u968f\u65f6\u544a\u8bc9\u6211\u3002\u795d\u60a8\u7528\u9910\u6109\u5feb\uff01"
+}, {'role': 'user', 'content': '用更讽刺的语气回答技'}]
+微信机器人ocr模式.py-210-2023-09-29 18:10:50,903-INFO-从openai获得回复：哇，您要吃饭了？这真是个令人惊讶的消息！毕竟，吃饭是人类生存所必需的基本需求之一嘛。但是，如果您需要任何关于餐厅选择、菜单建议或者食物配搭的帮助，我将非常乐意为您提供服务。愿您的用餐经历充满美味与满足！
+微信机器人ocr模式.py-221-2023-09-29 18:10:51,110-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:11:36,728-INFO-识别新消息：%小马接卜来回答的每句话结尾带上喵喵
+微信机器人ocr模式.py-223-2023-09-29 18:11:36,729-INFO-获得新消息，正在请求openai：接卜来回答的每句话结尾带上喵喵
+微信机器人ocr模式.py-225-2023-09-29 18:11:36,729-INFO-token:[{'role': 'user', 'content': '我要吃饭了'}, <OpenAIObject at 0x224889c5190> JSON: {
+  "role": "assistant",
+  "content": "\u597d\u7684\uff0c\u5e0c\u671b\u4f60\u6709\u4e2a\u7f8e\u5473\u7684\u665a\u9910\uff01\u5982\u679c\u4f60\u8fd8\u9700\u8981\u5176\u4ed6\u5e2e\u52a9\uff0c\u968f\u65f6\u544a\u8bc9\u6211\u3002\u795d\u60a8\u7528\u9910\u6109\u5feb\uff01"
+}, {'role': 'user', 'content': '用更讽刺的语气回答技'}, <OpenAIObject at 0x224889c5c70> JSON: {
+  "role": "assistant",
+  "content": "\u54c7\uff0c\u60a8\u8981\u5403\u996d\u4e86\uff1f\u8fd9\u771f\u662f\u4e2a\u4ee4\u4eba\u60ca\u8bb6\u7684\u6d88\u606f\uff01\u6bd5\u7adf\uff0c\u5403\u996d\u662f\u4eba\u7c7b\u751f\u5b58\u6240\u5fc5\u9700\u7684\u57fa\u672c\u9700\u6c42\u4e4b\u4e00\u561b\u3002\u4f46\u662f\uff0c\u5982\u679c\u60a8\u9700\u8981\u4efb\u4f55\u5173\u4e8e\u9910\u5385\u9009\u62e9\u3001\u83dc\u5355\u5efa\u8bae\u6216\u8005\u98df\u7269\u914d\u642d\u7684\u5e2e\u52a9\uff0c\u6211\u5c06\u975e\u5e38\u4e50\u610f\u4e3a\u60a8\u63d0\u4f9b\u670d\u52a1\u3002\u613f\u60a8\u7684\u7528\u9910\u7ecf\u5386\u5145\u6ee1\u7f8e\u5473\u4e0e\u6ee1\u8db3\uff01"
+}, {'role': 'user', 'content': '接卜来回答的每句话结尾带上喵喵'}]
+微信机器人ocr模式.py-210-2023-09-29 18:11:41,087-INFO-从openai获得回复：好的喵喵，希望你有个美味的晚餐喵喵！如果你还需要其他帮助喵喵，随时告诉我喵喵。祝您用餐愉快喵喵！
+微信机器人ocr模式.py-221-2023-09-29 18:11:41,295-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:12:02,720-INFO-识别新消息：%小马如何喝水
+微信机器人ocr模式.py-223-2023-09-29 18:12:02,720-INFO-获得新消息，正在请求openai：如何喝水
+微信机器人ocr模式.py-225-2023-09-29 18:12:02,720-INFO-token:[{'role': 'user', 'content': '用更讽刺的语气回答技'}, <OpenAIObject at 0x224889c5c70> JSON: {
+  "role": "assistant",
+  "content": "\u54c7\uff0c\u60a8\u8981\u5403\u996d\u4e86\uff1f\u8fd9\u771f\u662f\u4e2a\u4ee4\u4eba\u60ca\u8bb6\u7684\u6d88\u606f\uff01\u6bd5\u7adf\uff0c\u5403\u996d\u662f\u4eba\u7c7b\u751f\u5b58\u6240\u5fc5\u9700\u7684\u57fa\u672c\u9700\u6c42\u4e4b\u4e00\u561b\u3002\u4f46\u662f\uff0c\u5982\u679c\u60a8\u9700\u8981\u4efb\u4f55\u5173\u4e8e\u9910\u5385\u9009\u62e9\u3001\u83dc\u5355\u5efa\u8bae\u6216\u8005\u98df\u7269\u914d\u642d\u7684\u5e2e\u52a9\uff0c\u6211\u5c06\u975e\u5e38\u4e50\u610f\u4e3a\u60a8\u63d0\u4f9b\u670d\u52a1\u3002\u613f\u60a8\u7684\u7528\u9910\u7ecf\u5386\u5145\u6ee1\u7f8e\u5473\u4e0e\u6ee1\u8db3\uff01"
+}, {'role': 'user', 'content': '接卜来回答的每句话结尾带上喵喵'}, <OpenAIObject at 0x224889c5970> JSON: {
+  "role": "assistant",
+  "content": "\u597d\u7684\u55b5\u55b5\uff0c\u5e0c\u671b\u4f60\u6709\u4e2a\u7f8e\u5473\u7684\u665a\u9910\u55b5\u55b5\uff01\u5982\u679c\u4f60\u8fd8\u9700\u8981\u5176\u4ed6\u5e2e\u52a9\u55b5\u55b5\uff0c\u968f\u65f6\u544a\u8bc9\u6211\u55b5\u55b5\u3002\u795d\u60a8\u7528\u9910\u6109\u5feb\u55b5\u55b5\uff01"
+}, {'role': 'user', 'content': '如何喝水'}]
+微信机器人ocr模式.py-210-2023-09-29 18:12:12,441-INFO-从openai获得回复：喵喵，喝水对于我们来说是非常重要的喵喵！首先，你需要找到一个干净的水源喵喵，可以是自来水或者瓶装水喵喵。然后，用杯子或者水瓶装满水喵喵。接下来，把杯子或者水瓶抬到嘴边，倾斜一点点，让水流进你的嘴里喵喵。喝水的时候要小口小口地喝，慢慢享受喵喵。喝完后，记得把杯子或者水瓶放回原处，保持清洁喵喵。希望你享
+微信机器人ocr模式.py-221-2023-09-29 18:12:12,647-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:12:40,510-INFO-识别新消息：只有200字可能太少了吗
+微信机器人ocr模式.py-152-2023-09-29 18:13:53,350-INFO-识别新消息：%小马 python数组求和
+微信机器人ocr模式.py-223-2023-09-29 18:13:53,351-INFO-获得新消息，正在请求openai： python数组求和
+微信机器人ocr模式.py-225-2023-09-29 18:13:53,351-INFO-token:[{'role': 'user', 'content': '接卜来回答的每句话结尾带上喵喵'}, <OpenAIObject at 0x224889c5970> JSON: {
+  "role": "assistant",
+  "content": "\u597d\u7684\u55b5\u55b5\uff0c\u5e0c\u671b\u4f60\u6709\u4e2a\u7f8e\u5473\u7684\u665a\u9910\u55b5\u55b5\uff01\u5982\u679c\u4f60\u8fd8\u9700\u8981\u5176\u4ed6\u5e2e\u52a9\u55b5\u55b5\uff0c\u968f\u65f6\u544a\u8bc9\u6211\u55b5\u55b5\u3002\u795d\u60a8\u7528\u9910\u6109\u5feb\u55b5\u55b5\uff01"
+}, {'role': 'user', 'content': '如何喝水'}, <OpenAIObject at 0x224889c5190> JSON: {
+  "role": "assistant",
+  "content": "\u55b5\u55b5\uff0c\u559d\u6c34\u5bf9\u4e8e\u6211\u4eec\u6765\u8bf4\u662f\u975e\u5e38\u91cd\u8981\u7684\u55b5\u55b5\uff01\u9996\u5148\uff0c\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u5e72\u51c0\u7684\u6c34\u6e90\u55b5\u55b5\uff0c\u53ef\u4ee5\u662f\u81ea\u6765\u6c34\u6216\u8005\u74f6\u88c5\u6c34\u55b5\u55b5\u3002\u7136\u540e\uff0c\u7528\u676f\u5b50\u6216\u8005\u6c34\u74f6\u88c5\u6ee1\u6c34\u55b5\u55b5\u3002\u63a5\u4e0b\u6765\uff0c\u628a\u676f\u5b50\u6216\u8005\u6c34\u74f6\u62ac\u5230\u5634\u8fb9\uff0c\u503e\u659c\u4e00\u70b9\u70b9\uff0c\u8ba9\u6c34\u6d41\u8fdb\u4f60\u7684\u5634\u91cc\u55b5\u55b5\u3002\u559d\u6c34\u7684\u65f6\u5019\u8981\u5c0f\u53e3\u5c0f\u53e3\u5730\u559d\uff0c\u6162\u6162\u4eab\u53d7\u55b5\u55b5\u3002\u559d\u5b8c\u540e\uff0c\u8bb0\u5f97\u628a\u676f\u5b50\u6216\u8005\u6c34\u74f6\u653e\u56de\u539f\u5904\uff0c\u4fdd\u6301\u6e05\u6d01\u55b5\u55b5\u3002\u5e0c\u671b\u4f60\u4eab"
+}, {'role': 'user', 'content': ' python数组求和'}]
+微信机器人ocr模式.py-210-2023-09-29 18:14:02,249-INFO-从openai获得回复：喵喵，要计算Python中数组的总和，可以使用内置函数sum()喵喵。你可以将数组作为sum()的参数，它会返回数组中所有元素的总和喵喵。以下是一个示例代码喵喵：
+
+```python
+my_array = [1, 2, 3, 4, 5]
+total_sum = sum(my_array)
+print("数组的总和是:", total_sum)
+```
+
+上面的代码将输出：数组的总和是: 15 喵喵。希望对你有帮助喵喵！如果还有其他问题，请随时告诉我喵喵。
+微信机器人ocr模式.py-221-2023-09-29 18:14:02,462-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:14:10,188-INFO-识别新消息：喵喵
+微信机器人ocr模式.py-152-2023-09-29 18:14:11,348-INFO-识别新消息：
+微信机器人ocr模式.py-152-2023-09-29 18:14:34,494-INFO-识别新消息：上面让它每句都带这个
+微信机器人ocr模式.py-152-2023-09-29 18:15:00,347-INFO-识别新消息：%小马给我推荐一台电脑配告
+微信机器人ocr模式.py-223-2023-09-29 18:15:00,347-INFO-获得新消息，正在请求openai：给我推荐一台电脑配告
+微信机器人ocr模式.py-225-2023-09-29 18:15:00,348-INFO-token:[{'role': 'user', 'content': '如何喝水'}, <OpenAIObject at 0x224889c5190> JSON: {
+  "role": "assistant",
+  "content": "\u55b5\u55b5\uff0c\u559d\u6c34\u5bf9\u4e8e\u6211\u4eec\u6765\u8bf4\u662f\u975e\u5e38\u91cd\u8981\u7684\u55b5\u55b5\uff01\u9996\u5148\uff0c\u4f60\u9700\u8981\u627e\u5230\u4e00\u4e2a\u5e72\u51c0\u7684\u6c34\u6e90\u55b5\u55b5\uff0c\u53ef\u4ee5\u662f\u81ea\u6765\u6c34\u6216\u8005\u74f6\u88c5\u6c34\u55b5\u55b5\u3002\u7136\u540e\uff0c\u7528\u676f\u5b50\u6216\u8005\u6c34\u74f6\u88c5\u6ee1\u6c34\u55b5\u55b5\u3002\u63a5\u4e0b\u6765\uff0c\u628a\u676f\u5b50\u6216\u8005\u6c34\u74f6\u62ac\u5230\u5634\u8fb9\uff0c\u503e\u659c\u4e00\u70b9\u70b9\uff0c\u8ba9\u6c34\u6d41\u8fdb\u4f60\u7684\u5634\u91cc\u55b5\u55b5\u3002\u559d\u6c34\u7684\u65f6\u5019\u8981\u5c0f\u53e3\u5c0f\u53e3\u5730\u559d\uff0c\u6162\u6162\u4eab\u53d7\u55b5\u55b5\u3002\u559d\u5b8c\u540e\uff0c\u8bb0\u5f97\u628a\u676f\u5b50\u6216\u8005\u6c34\u74f6\u653e\u56de\u539f\u5904\uff0c\u4fdd\u6301\u6e05\u6d01\u55b5\u55b5\u3002\u5e0c\u671b\u4f60\u4eab"
+}, {'role': 'user', 'content': ' python数组求和'}, <OpenAIObject at 0x224889c5c70> JSON: {
+  "role": "assistant",
+  "content": "\u55b5\u55b5\uff0c\u8981\u8ba1\u7b97Python\u4e2d\u6570\u7ec4\u7684\u603b\u548c\uff0c\u53ef\u4ee5\u4f7f\u7528\u5185\u7f6e\u51fd\u6570sum()\u55b5\u55b5\u3002\u4f60\u53ef\u4ee5\u5c06\u6570\u7ec4\u4f5c\u4e3asum()\u7684\u53c2\u6570\uff0c\u5b83\u4f1a\u8fd4\u56de\u6570\u7ec4\u4e2d\u6240\u6709\u5143\u7d20\u7684\u603b\u548c\u55b5\u55b5\u3002\u4ee5\u4e0b\u662f\u4e00\u4e2a\u793a\u4f8b\u4ee3\u7801\u55b5\u55b5\uff1a\n\n```python\nmy_array = [1, 2, 3, 4, 5]\ntotal_sum = sum(my_array)\nprint(\"\u6570\u7ec4\u7684\u603b\u548c\u662f:\", total_sum)\n```\n\n\u4e0a\u9762\u7684\u4ee3\u7801\u5c06\u8f93\u51fa\uff1a\u6570\u7ec4\u7684\u603b\u548c\u662f: 15 \u55b5\u55b5\u3002\u5e0c\u671b\u5bf9\u4f60\u6709\u5e2e\u52a9\u55b5\u55b5\uff01\u5982\u679c\u8fd8\u6709\u5176\u4ed6\u95ee\u9898\uff0c\u8bf7\u968f\u65f6\u544a\u8bc9\u6211\u55b5\u55b5\u3002"
+}, {'role': 'user', 'content': '给我推荐一台电脑配告'}]
+微信机器人ocr模式.py-210-2023-09-29 18:15:10,271-INFO-从openai获得回复：当选择一台电脑配件时，需要考虑你的需求和预算。以下是一些常见的电脑配件推荐：
+
+1. 处理器（CPU）：Intel Core i5或i7，或者AMD Ryzen 5或7系列，根据你的预算和性能需求选择。
+
+2. 内存（RAM）：8GB或16GB内存，这取决于你的使用需求。如果你会进行较为复杂的任务，如游戏或视频编辑，16GB可能更合适。
+
+3. 显卡（GPU）：NVIDIA GeForce GTX或RTX系列，或者AMD Radeon RX系列。如果你进行游戏或图形处理等任务，选择一款适合你需求的显卡。
+
+4.
+微信机器人ocr模式.py-221-2023-09-29 18:15:10,483-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 18:15:39,696-INFO-识别新消息：没有喵喵了
+微信机器人ocr模式.py-152-2023-09-29 18:16:03,951-INFO-识别新消息：我设青的记录上下文5句，之即的口别会忘了
+微信机器人ocr模式.py-152-2023-09-29 18:16:27,697-INFO-识别新消息：先吃饭了，挂在这里你们玩吧
+微信机器人ocr模式.py-242-2023-09-29 19:14:32,389-INFO-开始运行！
+微信机器人ocr模式.py-245-2023-09-29 19:14:32,563-INFO-初始化完成
+微信机器人ocr模式.py-221-2023-09-29 19:14:32,565-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:14:45,330-INFO-识别新消息：电脑进入屏保状态就不行了
+微信机器人ocr模式.py-152-2023-09-29 19:14:51,854-INFO-识别新消息：%小马来打麻将
+微信机器人ocr模式.py-223-2023-09-29 19:14:51,855-INFO-获得新消息，正在请求openai：来打麻将
+微信机器人ocr模式.py-225-2023-09-29 19:14:51,855-INFO-token:[{'role': 'user', 'content': '来打麻将'}]
+微信机器人ocr模式.py-210-2023-09-29 19:14:57,493-INFO-从openai获得回复：抱歉，我无法打麻将，因为我是一个智能助手，没有身体和手指来操作实际的物品。但是，我可以帮助你了解麻将的规则和策略，或者回答关于麻将的问题。请问有什么我可以帮助你的？
+微信机器人ocr模式.py-221-2023-09-29 19:14:57,703-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:15:49,370-INFO-识别新消息：%小马我出对三，你要不要
+微信机器人ocr模式.py-223-2023-09-29 19:15:49,370-INFO-获得新消息，正在请求openai：我出对三，你要不要
+微信机器人ocr模式.py-225-2023-09-29 19:15:49,371-INFO-token:[{'role': 'user', 'content': '来打麻将'}, <OpenAIObject at 0x1cbb7719250> JSON: {
+  "role": "assistant",
+  "content": "\u62b1\u6b49\uff0c\u6211\u65e0\u6cd5\u6253\u9ebb\u5c06\uff0c\u56e0\u4e3a\u6211\u662f\u4e00\u4e2a\u667a\u80fd\u52a9\u624b\uff0c\u6ca1\u6709\u8eab\u4f53\u548c\u624b\u6307\u6765\u64cd\u4f5c\u5b9e\u9645\u7684\u7269\u54c1\u3002\u4f46\u662f\uff0c\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u4e86\u89e3\u9ebb\u5c06\u7684\u89c4\u5219\u548c\u7b56\u7565\uff0c\u6216\u8005\u56de\u7b54\u5173\u4e8e\u9ebb\u5c06\u7684\u95ee\u9898\u3002\u8bf7\u95ee\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\uff1f"
+}, {'role': 'user', 'content': '我出对三，你要不要'}]
+微信机器人ocr模式.py-210-2023-09-29 19:15:55,259-INFO-从openai获得回复：作为一个智能助手，我无法参与实际的麻将游戏或进行实时的牌局决策。对于出牌的选择，我建议你根据你手中的牌和当前局势做出最明智的决策。在麻将游戏中，策略和判断力是很重要的。祝你好运！
+微信机器人ocr模式.py-221-2023-09-29 19:15:55,468-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:16:19,223-INFO-识别新消息：%小马对三也不是麻将啊
+微信机器人ocr模式.py-223-2023-09-29 19:16:19,223-INFO-获得新消息，正在请求openai：对三也不是麻将啊
+微信机器人ocr模式.py-225-2023-09-29 19:16:19,224-INFO-token:[{'role': 'user', 'content': '来打麻将'}, <OpenAIObject at 0x1cbb7719250> JSON: {
+  "role": "assistant",
+  "content": "\u62b1\u6b49\uff0c\u6211\u65e0\u6cd5\u6253\u9ebb\u5c06\uff0c\u56e0\u4e3a\u6211\u662f\u4e00\u4e2a\u667a\u80fd\u52a9\u624b\uff0c\u6ca1\u6709\u8eab\u4f53\u548c\u624b\u6307\u6765\u64cd\u4f5c\u5b9e\u9645\u7684\u7269\u54c1\u3002\u4f46\u662f\uff0c\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u4e86\u89e3\u9ebb\u5c06\u7684\u89c4\u5219\u548c\u7b56\u7565\uff0c\u6216\u8005\u56de\u7b54\u5173\u4e8e\u9ebb\u5c06\u7684\u95ee\u9898\u3002\u8bf7\u95ee\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\uff1f"
+}, {'role': 'user', 'content': '我出对三，你要不要'}, <OpenAIObject at 0x1cbb7719310> JSON: {
+  "role": "assistant",
+  "content": "\u4f5c\u4e3a\u4e00\u4e2a\u667a\u80fd\u52a9\u624b\uff0c\u6211\u65e0\u6cd5\u53c2\u4e0e\u5b9e\u9645\u7684\u9ebb\u5c06\u6e38\u620f\u6216\u8fdb\u884c\u5b9e\u65f6\u7684\u724c\u5c40\u51b3\u7b56\u3002\u5bf9\u4e8e\u51fa\u724c\u7684\u9009\u62e9\uff0c\u6211\u5efa\u8bae\u4f60\u6839\u636e\u4f60\u624b\u4e2d\u7684\u724c\u548c\u5f53\u524d\u5c40\u52bf\u505a\u51fa\u6700\u660e\u667a\u7684\u51b3\u7b56\u3002\u5728\u9ebb\u5c06\u6e38\u620f\u4e2d\uff0c\u7b56\u7565\u548c\u5224\u65ad\u529b\u662f\u5f88\u91cd\u8981\u7684\u3002\u795d\u4f60\u597d\u8fd0\uff01"
+}, {'role': 'user', 'content': '对三也不是麻将啊'}]
+微信机器人ocr模式.py-210-2023-09-29 19:16:26,941-INFO-从openai获得回复：非常抱歉，我误解了你的问题。对三并不是麻将中的术语。在标准的麻将游戏中，玩家需要根据手中的牌和游戏规则进行出牌决策。每个人的出牌策略可能会有所不同，取决于手牌的组合和当前的局势。如果你需要了解更多关于麻将游戏规则和策略的信息，我很乐意为你提供帮助。
+微信机器人ocr模式.py-221-2023-09-29 19:16:27,156-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:17:05,590-INFO-识别新消息：%小马我们模拟一把斗地主，你当地主
+微信机器人ocr模式.py-223-2023-09-29 19:17:05,590-INFO-获得新消息，正在请求openai：我们模拟一把斗地主，你当地主
+微信机器人ocr模式.py-225-2023-09-29 19:17:05,591-INFO-token:[{'role': 'user', 'content': '我出对三，你要不要'}, <OpenAIObject at 0x1cbb7719310> JSON: {
+  "role": "assistant",
+  "content": "\u4f5c\u4e3a\u4e00\u4e2a\u667a\u80fd\u52a9\u624b\uff0c\u6211\u65e0\u6cd5\u53c2\u4e0e\u5b9e\u9645\u7684\u9ebb\u5c06\u6e38\u620f\u6216\u8fdb\u884c\u5b9e\u65f6\u7684\u724c\u5c40\u51b3\u7b56\u3002\u5bf9\u4e8e\u51fa\u724c\u7684\u9009\u62e9\uff0c\u6211\u5efa\u8bae\u4f60\u6839\u636e\u4f60\u624b\u4e2d\u7684\u724c\u548c\u5f53\u524d\u5c40\u52bf\u505a\u51fa\u6700\u660e\u667a\u7684\u51b3\u7b56\u3002\u5728\u9ebb\u5c06\u6e38\u620f\u4e2d\uff0c\u7b56\u7565\u548c\u5224\u65ad\u529b\u662f\u5f88\u91cd\u8981\u7684\u3002\u795d\u4f60\u597d\u8fd0\uff01"
+}, {'role': 'user', 'content': '对三也不是麻将啊'}, <OpenAIObject at 0x1cbb77181d0> JSON: {
+  "role": "assistant",
+  "content": "\u975e\u5e38\u62b1\u6b49\uff0c\u6211\u8bef\u89e3\u4e86\u4f60\u7684\u95ee\u9898\u3002\u5bf9\u4e09\u5e76\u4e0d\u662f\u9ebb\u5c06\u4e2d\u7684\u672f\u8bed\u3002\u5728\u6807\u51c6\u7684\u9ebb\u5c06\u6e38\u620f\u4e2d\uff0c\u73a9\u5bb6\u9700\u8981\u6839\u636e\u624b\u4e2d\u7684\u724c\u548c\u6e38\u620f\u89c4\u5219\u8fdb\u884c\u51fa\u724c\u51b3\u7b56\u3002\u6bcf\u4e2a\u4eba\u7684\u51fa\u724c\u7b56\u7565\u53ef\u80fd\u4f1a\u6709\u6240\u4e0d\u540c\uff0c\u53d6\u51b3\u4e8e\u624b\u724c\u7684\u7ec4\u5408\u548c\u5f53\u524d\u7684\u5c40\u52bf\u3002\u5982\u679c\u4f60\u9700\u8981\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u9ebb\u5c06\u6e38\u620f\u89c4\u5219\u548c\u7b56\u7565\u7684\u4fe1\u606f\uff0c\u6211\u5f88\u4e50\u610f\u4e3a\u4f60\u63d0\u4f9b\u5e2e\u52a9\u3002"
+}, {'role': 'user', 'content': '我们模拟一把斗地主，你当地主'}]
+微信机器人ocr模式.py-210-2023-09-29 19:17:15,720-INFO-从openai获得回复：好的，我们来模拟一把斗地主游戏，我扮演地主的角色。斗地主是一种纸牌游戏，通常由三个玩家进行。每个玩家轮流出牌，目标是尽快打完手中的牌。
+
+作为地主，我会先从一副牌中拿到17张牌，而其他两个农民玩家则各拿到16张牌。我会先进行出牌，然后是农民玩家。我们会按照规则出牌，例如单牌、对子、三张等等。
+
+请告诉我你想出的第一手牌，我们将根据规则进行游戏。
+微信机器人ocr模式.py-221-2023-09-29 19:17:15,934-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:17:35,465-INFO-识别新消息：%/小马应该你先出牌
+微信机器人ocr模式.py-152-2023-09-29 19:18:43,389-INFO-识别新消息：%小马你先出牌
+微信机器人ocr模式.py-223-2023-09-29 19:18:43,390-INFO-获得新消息，正在请求openai：你先出牌
+微信机器人ocr模式.py-225-2023-09-29 19:18:43,390-INFO-token:[{'role': 'user', 'content': '对三也不是麻将啊'}, <OpenAIObject at 0x1cbb77181d0> JSON: {
+  "role": "assistant",
+  "content": "\u975e\u5e38\u62b1\u6b49\uff0c\u6211\u8bef\u89e3\u4e86\u4f60\u7684\u95ee\u9898\u3002\u5bf9\u4e09\u5e76\u4e0d\u662f\u9ebb\u5c06\u4e2d\u7684\u672f\u8bed\u3002\u5728\u6807\u51c6\u7684\u9ebb\u5c06\u6e38\u620f\u4e2d\uff0c\u73a9\u5bb6\u9700\u8981\u6839\u636e\u624b\u4e2d\u7684\u724c\u548c\u6e38\u620f\u89c4\u5219\u8fdb\u884c\u51fa\u724c\u51b3\u7b56\u3002\u6bcf\u4e2a\u4eba\u7684\u51fa\u724c\u7b56\u7565\u53ef\u80fd\u4f1a\u6709\u6240\u4e0d\u540c\uff0c\u53d6\u51b3\u4e8e\u624b\u724c\u7684\u7ec4\u5408\u548c\u5f53\u524d\u7684\u5c40\u52bf\u3002\u5982\u679c\u4f60\u9700\u8981\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u9ebb\u5c06\u6e38\u620f\u89c4\u5219\u548c\u7b56\u7565\u7684\u4fe1\u606f\uff0c\u6211\u5f88\u4e50\u610f\u4e3a\u4f60\u63d0\u4f9b\u5e2e\u52a9\u3002"
+}, {'role': 'user', 'content': '我们模拟一把斗地主，你当地主'}, <OpenAIObject at 0x1cbb7719250> JSON: {
+  "role": "assistant",
+  "content": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6a21\u62df\u4e00\u628a\u6597\u5730\u4e3b\u6e38\u620f\uff0c\u6211\u626e\u6f14\u5730\u4e3b\u7684\u89d2\u8272\u3002\u6597\u5730\u4e3b\u662f\u4e00\u79cd\u7eb8\u724c\u6e38\u620f\uff0c\u901a\u5e38\u7531\u4e09\u4e2a\u73a9\u5bb6\u8fdb\u884c\u3002\u6bcf\u4e2a\u73a9\u5bb6\u8f6e\u6d41\u51fa\u724c\uff0c\u76ee\u6807\u662f\u5c3d\u5feb\u6253\u5b8c\u624b\u4e2d\u7684\u724c\u3002\n\n\u4f5c\u4e3a\u5730\u4e3b\uff0c\u6211\u4f1a\u5148\u4ece\u4e00\u526f\u724c\u4e2d\u62ff\u523017\u5f20\u724c\uff0c\u800c\u5176\u4ed6\u4e24\u4e2a\u519c\u6c11\u73a9\u5bb6\u5219\u5404\u62ff\u523016\u5f20\u724c\u3002\u6211\u4f1a\u5148\u8fdb\u884c\u51fa\u724c\uff0c\u7136\u540e\u662f\u519c\u6c11\u73a9\u5bb6\u3002\u6211\u4eec\u4f1a\u6309\u7167\u89c4\u5219\u51fa\u724c\uff0c\u4f8b\u5982\u5355\u724c\u3001\u5bf9\u5b50\u3001\u4e09\u5f20\u7b49\u7b49\u3002\n\n\u8bf7\u544a\u8bc9\u6211\u4f60\u60f3\u51fa\u7684\u7b2c\u4e00\u624b\u724c\uff0c\u6211\u4eec\u5c06\u6839\u636e\u89c4\u5219\u8fdb\u884c\u6e38\u620f\u3002"
+}, {'role': 'user', 'content': '你先出牌'}]
+微信机器人ocr模式.py-207-2023-09-29 19:18:48,406-ERROR-Error communicating with OpenAI: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+微信机器人ocr模式.py-242-2023-09-29 19:42:28,619-INFO-开始运行！
+微信机器人ocr模式.py-245-2023-09-29 19:42:28,787-INFO-初始化完成
+微信机器人ocr模式.py-221-2023-09-29 19:42:28,790-INFO-等待新消息。
+微信机器人ocr模式.py-242-2023-09-29 19:47:02,277-INFO-开始运行！
+微信机器人ocr模式.py-245-2023-09-29 19:47:02,441-INFO-初始化完成
+微信机器人ocr模式.py-221-2023-09-29 19:47:02,443-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:47:15,989-INFO-识别新消息：给你们看者我刚做的
+微信机器人ocr模式.py-152-2023-09-29 19:47:32,830-INFO-识别新消息：%小马中秋节有什么习俗
+微信机器人ocr模式.py-223-2023-09-29 19:47:32,830-INFO-获得新消息，正在请求openai：中秋节有什么习俗
+微信机器人ocr模式.py-225-2023-09-29 19:47:32,830-INFO-token:[{'role': 'user', 'content': '中秋节有什么习俗'}]
+微信机器人ocr模式.py-210-2023-09-29 19:47:43,832-INFO-从openai获得回复：中秋节是一个传统的中国节日，有许多与之相关的习俗。以下是一些常见的中秋节习俗：
+
+1. 赏月：中秋节是赏月的重要时刻，人们会在晚上出门，赏月品茗，欣赏明亮的圆月。
+
+2. 吃月饼：中秋节时，人们会品尝各种口味的月饼，如莲蓉、豆沙、五仁等。月饼象征着团圆和祝福。
+
+3. 赏烟花：中秋节晚上，人们会放烟花庆祝节日，增
+微信机器人ocr模式.py-221-2023-09-29 19:47:44,112-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:49:20,285-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-223-2023-09-29 19:49:20,286-INFO-获得新消息，正在请求openai：你是谁
+微信机器人ocr模式.py-225-2023-09-29 19:49:20,286-INFO-token:[{'role': 'user', 'content': '中秋节有什么习俗'}, <OpenAIObject at 0x1e5793792b0> JSON: {
+  "role": "assistant",
+  "content": "\u4e2d\u79cb\u8282\u662f\u4e00\u4e2a\u4f20\u7edf\u7684\u4e2d\u56fd\u8282\u65e5\uff0c\u6709\u8bb8\u591a\u4e0e\u4e4b\u76f8\u5173\u7684\u4e60\u4fd7\u3002\u4ee5\u4e0b\u662f\u4e00\u4e9b\u5e38\u89c1\u7684\u4e2d\u79cb\u8282\u4e60\u4fd7\uff1a\n\n1. \u8d4f\u6708\uff1a\u4e2d\u79cb\u8282\u662f\u8d4f\u6708\u7684\u91cd\u8981\u65f6\u523b\uff0c\u4eba\u4eec\u4f1a\u5728\u665a\u4e0a\u51fa\u95e8\uff0c\u8d4f\u6708\u54c1\u8317\uff0c\u6b23\u8d4f\u660e\u4eae\u7684\u5706\u6708\u3002\n\n2. \u5403\u6708\u997c\uff1a\u4e2d\u79cb\u8282\u65f6\uff0c\u4eba\u4eec\u4f1a\u54c1\u5c1d\u5404\u79cd\u53e3\u5473\u7684\u6708\u997c\uff0c\u5982\u83b2\u84c9\u3001\u8c46\u6c99\u3001\u4e94\u4ec1\u7b49\u3002\u6708\u997c\u8c61\u5f81\u7740\u56e2\u5706\u548c\u795d\u798f\u3002\n\n3. \u8d4f\u70df\u82b1\uff1a\u4e2d\u79cb\u8282\u665a\u4e0a\uff0c\u4eba\u4eec\u4f1a\u653e\u70df\u82b1\u5e86\u795d\u8282\u65e5\uff0c\u589e"
+}, {'role': 'user', 'content': '你是谁'}]
+微信机器人ocr模式.py-210-2023-09-29 19:49:23,332-INFO-从openai获得回复：我是一个人工智能助手，可以回答各种问题和提供帮助。
+微信机器人ocr模式.py-221-2023-09-29 19:49:23,556-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 19:49:47,571-INFO-识别新消息：你们也可以试试
+微信机器人ocr模式.py-152-2023-09-29 19:50:02,133-INFO-识别新消息：前面带上那个白分号就行
+微信机器人ocr模式.py-242-2023-09-29 19:54:58,129-INFO-开始运行！
+微信机器人ocr模式.py-245-2023-09-29 19:54:58,290-INFO-初始化完成
+微信机器人ocr模式.py-221-2023-09-29 19:54:58,294-INFO-等待新消息。
+微信机器人ocr模式.py-122-2023-09-29 19:59:33,154-WARNING-查找对话框位置失败!
+微信机器人ocr模式.py-122-2023-09-29 19:59:33,711-WARNING-查找对话框位置失败!
+微信机器人ocr模式.py-242-2023-09-29 20:00:27,592-INFO-开始运行！
+微信机器人ocr模式.py-245-2023-09-29 20:00:27,761-INFO-初始化完成
+微信机器人ocr模式.py-221-2023-09-29 20:00:27,763-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 20:01:30,937-INFO-识别新消息：%小马一加一等于几
+微信机器人ocr模式.py-223-2023-09-29 20:01:30,938-INFO-获得新消息，正在请求openai：一加一等于几
+微信机器人ocr模式.py-225-2023-09-29 20:01:30,938-INFO-token:[{'role': 'user', 'content': '一加一等于几'}]
+微信机器人ocr模式.py-210-2023-09-29 20:01:33,292-INFO-从openai获得回复：一加一等于二。
+微信机器人ocr模式.py-221-2023-09-29 20:01:33,507-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 20:01:51,618-INFO-识别新消息：%小马你错了，一加一等于一
+微信机器人ocr模式.py-223-2023-09-29 20:01:51,618-INFO-获得新消息，正在请求openai：你错了，一加一等于一
+微信机器人ocr模式.py-225-2023-09-29 20:01:51,619-INFO-token:[{'role': 'user', 'content': '一加一等于几'}, <OpenAIObject at 0x1e5079e91f0> JSON: {
+  "role": "assistant",
+  "content": "\u4e00\u52a0\u4e00\u7b49\u4e8e\u4e8c\u3002"
+}, {'role': 'user', 'content': '你错了，一加一等于一'}]
+微信机器人ocr模式.py-210-2023-09-29 20:01:53,637-INFO-从openai获得回复：不好意思，我犯了个错误。一加一确实等于二。感谢指正！
+微信机器人ocr模式.py-221-2023-09-29 20:01:53,845-INFO-等待新消息。
+微信机器人ocr模式.py-152-2023-09-29 20:02:52,260-INFO-识别新消息：%小马高中学习需要什么物品
+微信机器人ocr模式.py-223-2023-09-29 20:02:52,261-INFO-获得新消息，正在请求openai：高中学习需要什么物品
+微信机器人ocr模式.py-225-2023-09-29 20:02:52,261-INFO-token:[{'role': 'user', 'content': '一加一等于几'}, <OpenAIObject at 0x1e5079e91f0> JSON: {
+  "role": "assistant",
+  "content": "\u4e00\u52a0\u4e00\u7b49\u4e8e\u4e8c\u3002"
+}, {'role': 'user', 'content': '你错了，一加一等于一'}, <OpenAIObject at 0x1e5079e92b0> JSON: {
+  "role": "assistant",
+  "content": "\u4e0d\u597d\u610f\u601d\uff0c\u6211\u72af\u4e86\u4e2a\u9519\u8bef\u3002\u4e00\u52a0\u4e00\u786e\u5b9e\u7b49\u4e8e\u4e8c\u3002\u611f\u8c22\u6307\u6b63\uff01"
+}, {'role': 'user', 'content': '高中学习需要什么物品'}]
+微信机器人ocr模式.py-210-2023-09-29 20:03:03,374-INFO-从openai获得回复：高中学习需要以下物品：
+
+1. 笔和铅笔：用于写作业、做笔记和解题。
+2. 笔记本和文件夹：用于整理和保存课堂笔记和作业。
+3. 教科书和参考书：根据课程需求购买相关教科书和参考书籍。
+4. 计算器：用于数学、物理等科目的计算。
+5. 标尺、三角板和尺子：用于绘制图表和测量。
+6. 记事本和便签：用于记录提醒事项和备忘录。
+7. 学习用品收纳盒：用于存放和组织学习用品。
+8
+微信机器人ocr模式.py-221-2023-09-29 20:03:03,610-INFO-等待新消息。
+微信机器人ocr模式.py-270-2023-09-30 15:49:53,838-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\f032c28c-fc86-4a23-89f8-34b8ef2f15b9.png
+微信机器人ocr模式.py-270-2023-09-30 15:51:26,836-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\36992f54-5947-434d-aacb-ba41703ac4cf.png
+微信机器人ocr模式.py-271-2023-09-30 16:00:22,513-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\2055f946-cf92-4a9f-9c7c-de5cba67b4a1.png
+微信机器人ocr模式.py-277-2023-09-30 16:02:20,194-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\52654edf-2878-4720-9c14-b430d876d9bb.png
+微信机器人ocr模式.py-277-2023-09-30 16:03:46,049-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\87727115-9a43-4a6a-bb5b-833f8f0a80ae.png
+微信机器人ocr模式.py-277-2023-09-30 16:04:41,287-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\af19817b-2010-4dd2-b03b-a742420838d3.png
+微信机器人ocr模式.py-285-2023-09-30 16:13:05,538-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\8146d388-5498-4f4d-83a4-9baf4b8b1412.png
+微信机器人ocr模式.py-285-2023-09-30 16:13:21,446-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-jAZ847I5ZaUPcZrrCT2vjcQt.png?st=2023-09-30T06%3A15%3A31Z&se=2023-09-30T08%3A15%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A51Z&ske=2023-10-01T00%3A16%3A51Z&sks=b&skv=2021-08-06&sig=FOAAcPNe9u7q2HmKHbZfrkUHo5Bd3/oinZxtJBZdejk%3D保存图片：aiImage\2918dd26-10c5-4550-91f3-249fb10ac7dd.png
+微信机器人ocr模式.py-333-2023-09-30 17:56:59,810-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 17:57:00,015-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 17:57:00,017-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 17:57:25,179-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-333-2023-09-30 17:58:43,058-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 17:58:43,237-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 17:58:43,240-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 17:59:13,218-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-300-2023-09-30 17:59:13,219-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '小狗打小猫')
+微信机器人ocr模式.py-333-2023-09-30 18:00:21,145-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:00:21,313-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:00:21,316-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:00:29,388-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-300-2023-09-30 18:00:29,389-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '你是谁')
+微信机器人ocr模式.py-298-2023-09-30 18:00:29,389-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:00:31,185-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-300-2023-09-30 18:00:31,185-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '小狗打小猫')
+微信机器人ocr模式.py-298-2023-09-30 18:00:31,186-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:00:49,409-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-300-2023-09-30 18:00:49,410-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '你是谁')
+微信机器人ocr模式.py-298-2023-09-30 18:00:49,411-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:01:08,723-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-300-2023-09-30 18:01:08,724-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '小狗打小猫')
+微信机器人ocr模式.py-298-2023-09-30 18:01:08,724-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:01:25,827-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-300-2023-09-30 18:01:25,828-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '你是谁')
+微信机器人ocr模式.py-298-2023-09-30 18:01:25,828-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:01:27,462-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-300-2023-09-30 18:01:27,462-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '小狗打小猫')
+微信机器人ocr模式.py-298-2023-09-30 18:01:27,463-INFO-等待新消息。
+微信机器人ocr模式.py-333-2023-09-30 18:02:23,021-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:02:23,194-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:02:23,196-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:02:30,405-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-300-2023-09-30 18:02:30,406-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '你是谁')
+微信机器人ocr模式.py-298-2023-09-30 18:02:30,406-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:03:07,781-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-300-2023-09-30 18:03:07,782-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '小狗打小猫')
+微信机器人ocr模式.py-298-2023-09-30 18:03:07,782-INFO-等待新消息。
+微信机器人ocr模式.py-333-2023-09-30 18:03:57,289-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:03:57,462-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:03:57,464-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:04:05,204-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-300-2023-09-30 18:04:05,204-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '你是谁')
+微信机器人ocr模式.py-298-2023-09-30 18:04:05,205-INFO-等待新消息。
+微信机器人ocr模式.py-333-2023-09-30 18:04:33,589-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:04:33,761-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:04:33,763-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:04:40,984-INFO-识别新消息：%小马你是谁
+微信机器人ocr模式.py-300-2023-09-30 18:04:40,985-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '你是谁')
+微信机器人ocr模式.py-263-2023-09-30 18:04:47,289-INFO-token:[{'role': 'user', 'content': '你是谁'}]
+微信机器人ocr模式.py-258-2023-09-30 18:04:53,719-INFO-从openai获得回复：我是一个人工智能助手，被称为OpenAI助手。我被设计来回答用户的问题和提供帮助。有什么我可以帮到你的吗？
+微信机器人ocr模式.py-333-2023-09-30 18:05:23,023-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:05:23,190-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:05:23,192-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:05:29,862-INFO-识别新消息：%图片小狗打小猫
+微信机器人ocr模式.py-300-2023-09-30 18:05:29,863-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '小狗打小猫')
+微信机器人ocr模式.py-281-2023-09-30 18:05:51,082-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-BYACGR8d579jwRWfDTLzHE3I.png?st=2023-09-30T09%3A05%3A47Z&se=2023-09-30T11%3A05%3A47Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T02%3A22%3A54Z&ske=2023-10-01T02%3A22%3A54Z&sks=b&skv=2021-08-06&sig=EicoufpoRrdj1EzsF3pRIVtr7iCqPMlfyp5l%2B13qPiE%3D保存图片：aiImage\1ae464c7-02ec-4d31-81e2-4980d9711ade.png
+微信机器人ocr模式.py-298-2023-09-30 18:05:51,408-INFO-等待新消息。
+微信机器人ocr模式.py-333-2023-09-30 18:06:22,287-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:06:22,445-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:06:22,445-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:07:06,973-INFO-识别新消息：%图片三只小猫在草地上跑
+微信机器人ocr模式.py-300-2023-09-30 18:07:06,974-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '三只小猫在草地上跑')
+微信机器人ocr模式.py-197-2023-09-30 18:07:26,217-INFO-识别新消息：还可以实装更多大气咨询等功能，还没做
+微信机器人ocr模式.py-197-2023-09-30 18:07:32,146-INFO-识别新消息：%图片三只小猫在草地上跑
+微信机器人ocr模式.py-197-2023-09-30 18:08:01,534-INFO-识别新消息：还可以实装更多大气咨询等功能，还没做
+微信机器人ocr模式.py-197-2023-09-30 18:08:09,038-INFO-识别新消息：还可以实装更多大气咨询等功能，还没做
+微信机器人ocr模式.py-197-2023-09-30 18:08:11,197-INFO-识别新消息：%图片三只小猫在草地上跑
+微信机器人ocr模式.py-197-2023-09-30 18:08:22,978-INFO-识别新消息：%图片三只小猫在草地上跑
+微信机器人ocr模式.py-333-2023-09-30 18:08:44,378-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:08:44,541-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:08:44,544-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:08:52,278-INFO-识别新消息：还可以实装更多大气咨询等功能，还没做
+微信机器人ocr模式.py-197-2023-09-30 18:08:53,385-INFO-识别新消息：%图片三只小猫在草地上跑
+微信机器人ocr模式.py-300-2023-09-30 18:08:53,385-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '三只小猫在草地上跑')
+微信机器人ocr模式.py-281-2023-09-30 18:09:07,342-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-DJDuvsHcrsNjyLk7cMDOM5ZL.png?st=2023-09-30T09%3A09%3A03Z&se=2023-09-30T11%3A09%3A03Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A14%3A01Z&ske=2023-10-01T00%3A14%3A01Z&sks=b&skv=2021-08-06&sig=dABff4PwEkCrqWZuoTeAAPbBn85xFOBC6ES1vcVaEeA%3D保存图片：aiImage\8c93f968-7381-4c45-953a-b1933df69b29.png
+微信机器人ocr模式.py-298-2023-09-30 18:09:07,673-INFO-等待新消息。
+微信机器人ocr模式.py-333-2023-09-30 18:10:35,817-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:10:35,981-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:10:35,981-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:10:52,800-INFO-识别新消息：%小马猫是什么
+微信机器人ocr模式.py-300-2023-09-30 18:10:52,800-INFO-获得新消息，正在请求openai：(<Instrcutions.CHAT: '%小马'>, '猫是什么')
+微信机器人ocr模式.py-263-2023-09-30 18:10:52,800-INFO-token:[{'role': 'user', 'content': '猫是什么'}]
+微信机器人ocr模式.py-258-2023-09-30 18:11:04,491-INFO-从openai获得回复：猫是一种常见的家养动物，属于哺乳动物中的猫科。它们通常有柔软的毛发、敏捷的身体和锐利的爪子。猫是一种狩猎动物，以肉食为主食，善于捕捉小型的啮齿动物。猫的种类有很多，包括家猫、野猫、狮子、老虎等。猫具有独立性强、喜欢独处的特点，同时也是人类的亲密伴侣，许多人将它们作为宠物饲养。
+微信机器人ocr模式.py-298-2023-09-30 18:11:04,725-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:11:28,031-INFO-识别新消息：%图片一只黑色的狗
+微信机器人ocr模式.py-300-2023-09-30 18:11:28,031-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '一只黑色的狗')
+微信机器人ocr模式.py-333-2023-09-30 18:12:17,437-INFO-开始运行！
+微信机器人ocr模式.py-336-2023-09-30 18:12:17,605-INFO-初始化完成
+微信机器人ocr模式.py-298-2023-09-30 18:12:17,606-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:12:26,949-INFO-识别新消息：%图片一只黑色的狗
+微信机器人ocr模式.py-300-2023-09-30 18:12:26,949-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '一只黑色的狗')
+微信机器人ocr模式.py-281-2023-09-30 18:12:37,162-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-8BPkrv7yPRH56uaZ64CE7Ygf.png?st=2023-09-30T09%3A12%3A33Z&se=2023-09-30T11%3A12%3A33Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A18%3A16Z&ske=2023-10-01T00%3A18%3A16Z&sks=b&skv=2021-08-06&sig=76gd01c4zt%2BOG5JwKS0uuMiuxyT4lVwTNgn4%2BINPTn0%3D保存图片：aiImage\e1943117-1452-4d54-9658-f3c295b30547.png
+微信机器人ocr模式.py-298-2023-09-30 18:12:37,488-INFO-等待新消息。
+微信机器人ocr模式.py-197-2023-09-30 18:12:46,209-INFO-识别新消息：
+微信机器人ocr模式.py-335-2023-09-30 18:18:43,219-INFO-开始运行！
+微信机器人ocr模式.py-338-2023-09-30 18:18:43,384-INFO-初始化完成
+微信机器人ocr模式.py-300-2023-09-30 18:18:43,387-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:19:00,757-INFO-识别新消息：%图片一只龙和一只狗打架
+微信机器人ocr模式.py-302-2023-09-30 18:19:00,758-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '一只龙和一只狗打架')
+微信机器人ocr模式.py-283-2023-09-30 18:19:11,496-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-DbQuDpwHZ9Fxexl6Ub7tkDLP.png?st=2023-09-30T09%3A19%3A08Z&se=2023-09-30T11%3A19%3A08Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A16%3A01Z&ske=2023-10-01T00%3A16%3A01Z&sks=b&skv=2021-08-06&sig=vdWaaiCRF4CnVqLssfXtAD59amws4%2BF7Kh6%2BE%2BMNLHU%3D保存图片：aiImage\0413c118-1fc4-4e35-852c-823bafa61753.png
+微信机器人ocr模式.py-300-2023-09-30 18:19:11,821-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:19:33,917-INFO-识别新消息：
+微信机器人ocr模式.py-199-2023-09-30 18:19:43,037-INFO-识别新消息：%黑狗在哪
+微信机器人ocr模式.py-335-2023-09-30 18:20:32,003-INFO-开始运行！
+微信机器人ocr模式.py-338-2023-09-30 18:20:32,168-INFO-初始化完成
+微信机器人ocr模式.py-300-2023-09-30 18:20:32,171-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:20:39,944-INFO-识别新消息：
+微信机器人ocr模式.py-199-2023-09-30 18:20:42,656-INFO-识别新消息：掉链子了
+微信机器人ocr模式.py-199-2023-09-30 18:20:44,318-INFO-识别新消息：%明天
+微信机器人ocr模式.py-199-2023-09-30 18:21:09,151-INFO-识别新消息：%图片杨慧
+微信机器人ocr模式.py-302-2023-09-30 18:21:09,152-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '杨慧')
+微信机器人ocr模式.py-283-2023-09-30 18:21:20,032-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-A4Cuvwx3xe6lh3oEBxnpUEZ7.png?st=2023-09-30T09%3A21%3A16Z&se=2023-09-30T11%3A21%3A16Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A17%3A14Z&ske=2023-10-01T00%3A17%3A14Z&sks=b&skv=2021-08-06&sig=w/TGfNN1XgYzFV3/O%2B9L9J5xSIS5vIJwubiZIM4IJRw%3D保存图片：aiImage\16881f6a-bb86-4f5c-a9ac-b49e309ebe09.png
+微信机器人ocr模式.py-300-2023-09-30 18:21:20,357-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:21:29,984-INFO-识别新消息：这是ai生成的不是真实存在的图片
+微信机器人ocr模式.py-199-2023-09-30 18:21:49,752-INFO-识别新消息：口能出你理解成了一个树
+微信机器人ocr模式.py-199-2023-09-30 18:21:53,538-INFO-识别新消息：@阿宝儿快看
+微信机器人ocr模式.py-199-2023-09-30 18:21:58,904-INFO-识别新消息：你是一棵树
+微信机器人ocr模式.py-199-2023-09-30 18:22:16,578-INFO-识别新消息：太美了
+微信机器人ocr模式.py-199-2023-09-30 18:22:19,822-INFO-识别新消息：%图片马铭
+微信机器人ocr模式.py-302-2023-09-30 18:22:19,823-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '马铭')
+微信机器人ocr模式.py-199-2023-09-30 18:22:24,175-INFO-识别新消息：上
+微信机器人ocr模式.py-283-2023-09-30 18:22:30,227-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-IrIveoAfvBddJtZ467JmyMev.png?st=2023-09-30T09%3A22%3A26Z&se=2023-09-30T11%3A22%3A26Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A15%3A57Z&ske=2023-10-01T00%3A15%3A57Z&sks=b&skv=2021-08-06&sig=fLx3amFX976oYNRckN/EnzyLCUCdyjWMoPNmLXgje0k%3D保存图片：aiImage\0aa10ef2-6596-4b97-aa84-196943b15b5d.png
+微信机器人ocr模式.py-300-2023-09-30 18:22:30,552-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:22:36,522-INFO-识别新消息：哈哈哈
+微信机器人ocr模式.py-199-2023-09-30 18:22:40,316-INFO-识别新消息：真实
+微信机器人ocr模式.py-199-2023-09-30 18:22:54,843-INFO-识别新消息：%图片王鑫
+微信机器人ocr模式.py-302-2023-09-30 18:22:54,844-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '王鑫')
+微信机器人ocr模式.py-283-2023-09-30 18:23:04,688-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-5BIRyRS0lqGT6oW9VKdmTI6X.png?st=2023-09-30T09%3A23%3A01Z&se=2023-09-30T11%3A23%3A01Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A14%3A01Z&ske=2023-10-01T00%3A14%3A01Z&sks=b&skv=2021-08-06&sig=/a3m4OAyO4%2BCUOaOgn3RnyauYYpAvvu2yEkQOGORxjQ%3D保存图片：aiImage\97399c34-4630-4278-b58b-45d7d42487cc.png
+微信机器人ocr模式.py-300-2023-09-30 18:23:05,003-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:23:24,207-INFO-识别新消息：变成果皮了
+微信机器人ocr模式.py-199-2023-09-30 18:24:00,521-INFO-识别新消息：你用名字他不知道是哈，更常识一点的能好些
+微信机器人ocr模式.py-199-2023-09-30 18:24:04,301-INFO-识别新消息：%图片糖醋鲤鱼
+微信机器人ocr模式.py-302-2023-09-30 18:24:04,301-INFO-获得新消息，正在请求openai：(<Instrcutions.CREATE_IMAGE: '%图片'>, '糖醋鲤鱼')
+微信机器人ocr模式.py-283-2023-09-30 18:24:15,063-INFO-从https://oaidalleapiprodscus.blob.core.windows.net/private/org-avZs1SeXN2xZ1k3Rd15dlYjt/user-HzN17AKVD9J43xRuCv1CTGoj/img-NtIyrhKFB0IzYZtB0j5kWMdc.png?st=2023-09-30T09%3A24%3A11Z&se=2023-09-30T11%3A24%3A11Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-09-30T00%3A14%3A52Z&ske=2023-10-01T00%3A14%3A52Z&sks=b&skv=2021-08-06&sig=N1PeQtJND4R3bCtCIaEW%2Bm8CC%2BxA7M0PluMEJTbWuyI%3D保存图片：aiImage\14566c52-a6e3-4916-9690-78ddb37b201a.png
+微信机器人ocr模式.py-300-2023-09-30 18:24:15,389-INFO-等待新消息。
+微信机器人ocr模式.py-199-2023-09-30 18:24:33,677-INFO-识别新消息：勉强是个菜
+WeChatRobot.py-187-2023-10-01 15:08:55,336-INFO-开始运行！
+WeChatRobot.py-187-2023-10-01 15:09:48,237-INFO-开始运行！
+WeChatRobot.py-187-2023-10-01 15:10:22,015-INFO-开始运行！
+WeChatRobot.py-187-2023-10-01 15:11:38,602-INFO-开始运行！
+WeChatRobot.py-187-2023-10-01 15:12:27,407-INFO-开始运行！
+WeChatRobot.py-191-2023-10-01 15:12:28,172-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:12:28,173-INFO-等待新消息。
+WeChatRobot.py-187-2023-10-01 15:13:00,106-INFO-开始运行！
+WeChatRobot.py-191-2023-10-01 15:13:00,870-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:13:00,872-INFO-等待新消息。
+WeChatRobot.py-161-2023-10-01 15:13:09,298-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:13:09,299-INFO-获得新消息，跳转路由：('+(0v0)', '%小马 铅笔能写字吗')。
+AI_Replay.py-69-2023-10-01 15:13:09,299-INFO-token:[{'role': 'user', 'content': '%小马 铅笔能写字吗'}]
+AI_Replay.py-63-2023-10-01 15:13:12,174-INFO-从openai获得回复：铅笔是一种用来写字的工具，所以它能够写字。
+WeChatRobot.py-187-2023-10-01 15:15:28,385-INFO-开始运行！
+WeChatRobot.py-191-2023-10-01 15:15:29,149-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:15:29,152-INFO-等待新消息。
+WeChatRobot.py-161-2023-10-01 15:15:41,714-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:15:41,714-INFO-获得新消息，跳转路由：('+(0v0)', '%小马 钢笔字帖是什么')。
+AI_Replay.py-69-2023-10-01 15:15:41,715-INFO-token:[{'role': 'user', 'content': '%小马 钢笔字帖是什么'}]
+AI_Replay.py-63-2023-10-01 15:15:52,611-INFO-从openai获得回复：小马，钢笔字帖是一种练字工具，用于帮助人们练习书写时使用钢笔。它通常是一本练字本或练习纸，上面印有各种不同的字母、单词、短语或句子。钢笔字帖的目的是让使用者通过不断练习，提高自己的书写技巧和字迹美观度。它可以帮助人们掌握正确的书写姿势、笔画顺序和字形结构。钢笔字帖适用于任何年龄段的人士，无论是初学者还是想要提高
+Funs_Route.py-22-2023-10-01 15:15:52,819-INFO-等待新消息。
+WeChatRobot.py-161-2023-10-01 15:15:53,195-INFO-有新消息
+WeChatRobot.py-185-2023-10-01 15:18:33,952-INFO-开始运行！
+WeChatRobot.py-189-2023-10-01 15:18:34,735-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:18:34,737-INFO-等待新消息。
+WeChatRobot.py-159-2023-10-01 15:19:00,930-INFO-有新消息
+WeChatRobot.py-186-2023-10-01 15:20:42,066-INFO-开始运行！
+WeChatRobot.py-190-2023-10-01 15:20:42,830-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:20:42,833-INFO-等待新消息。
+WeChatRobot.py-160-2023-10-01 15:20:54,285-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:20:54,285-INFO-获得新消息，跳转路由：('+(0v0)', ' 可乐喝百世的好还是可口的好喝')。
+AI_Replay.py-69-2023-10-01 15:20:54,286-INFO-token:[{'role': 'user', 'content': ' 可乐喝百世的好还是可口的好喝'}]
+AI_Replay.py-63-2023-10-01 15:21:03,496-INFO-从openai获得回复：这是一个主观的问题，因为不同人对可乐的喜好可能不同。百事可乐和可口可乐是两个不同的品牌，它们在口味、气泡、甜度以及配方上可能有所不同。所以，喜欢哪个品牌的可乐是因人而异的。建议你可以尝试两个品牌的可乐，然后根据自己的口味和喜好来决定哪个更好喝。
+Funs_Route.py-22-2023-10-01 15:21:03,701-INFO-等待新消息。
+WeChatRobot.py-160-2023-10-01 15:21:04,108-INFO-有新消息
+WeChatRobot.py-187-2023-10-01 15:21:57,112-INFO-开始运行！
+WeChatRobot.py-191-2023-10-01 15:21:57,883-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:21:57,885-INFO-等待新消息。
+WeChatRobot.py-161-2023-10-01 15:22:07,771-INFO-有新消息
+WeChatRobot.py-161-2023-10-01 15:22:08,501-INFO-有新消息
+WeChatRobot.py-190-2023-10-01 15:25:06,276-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:25:07,042-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:25:07,044-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:25:15,388-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:25:15,388-INFO-获得新消息，跳转路由：('+(0v0)', '')。
+ranking_crawler.py-22-2023-10-01 15:25:15,496-INFO-哔哩哔哩排行榜爬取成功。
+WeChatRobot.py-190-2023-10-01 15:26:55,277-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:26:56,057-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:26:56,059-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:27:02,843-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:27:02,844-INFO-获得新消息，跳转路由：('+(0v0)', '哔哩哔哩')。
+ranking_crawler.py-22-2023-10-01 15:27:03,027-INFO-哔哩哔哩排行榜爬取成功。
+WeChatRobot.py-190-2023-10-01 15:28:54,276-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:28:55,040-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:28:55,043-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:29:00,256-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:29:00,257-INFO-获得新消息，跳转路由：('+(0v0)', '')。
+ranking_crawler.py-22-2023-10-01 15:29:00,365-INFO-哔哩哔哩排行榜爬取成功。
+Funs_Route.py-22-2023-10-01 15:29:00,576-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:29:00,787-INFO-有新消息
+WeChatRobot.py-190-2023-10-01 15:32:59,699-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:33:00,807-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:33:00,810-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:33:06,537-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:33:06,538-INFO-获得新消息，跳转路由：('+(0v0)', '哔哩哔哩')。
+Funs_Route.py-22-2023-10-01 15:33:06,744-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:33:07,062-INFO-有新消息
+WeChatRobot.py-164-2023-10-01 15:33:41,265-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:33:41,267-INFO-获得新消息，跳转路由：('+(0v0)', '哔哩哔哩')。
+WeChatRobot.py-190-2023-10-01 15:34:16,064-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:34:17,133-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:34:17,135-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:34:22,855-INFO-有新消息
+WeChatRobot.py-164-2023-10-01 15:34:28,013-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:34:28,013-INFO-获得新消息，跳转路由：('+(0v0)', '哔哩哔哩')。
+ranking_crawler.py-22-2023-10-01 15:34:28,151-INFO-哔哩哔哩排行榜爬取成功。
+Funs_Route.py-22-2023-10-01 15:34:28,157-INFO-等待新消息。
+WeChatRobot.py-190-2023-10-01 15:37:22,190-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:37:22,958-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:37:22,962-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:37:41,595-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:37:41,596-INFO-获得新消息，跳转路由：('+(0v0)', 'b站')。
+ranking_crawler.py-22-2023-10-01 15:37:41,722-INFO-哔哩哔哩排行榜爬取成功。
+Funs_Route.py-22-2023-10-01 15:37:41,934-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:37:42,119-INFO-有新消息
+WeChatRobot.py-190-2023-10-01 15:41:35,596-INFO-开始运行！
+WeChatRobot.py-194-2023-10-01 15:41:36,361-INFO-初始化完成
+Funs_Route.py-22-2023-10-01 15:41:36,363-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:41:47,786-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:41:47,786-INFO-获得新消息，跳转路由：('+(0v0)', '科技')。
+Funs_Route.py-22-2023-10-01 15:41:47,992-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:41:48,308-INFO-有新消息
+WeChatRobot.py-164-2023-10-01 15:41:57,610-INFO-有新消息
+Funs_Route.py-24-2023-10-01 15:41:57,610-INFO-获得新消息，跳转路由：('+(0v0)', '帮助')。
+Funs_Route.py-22-2023-10-01 15:41:57,814-INFO-等待新消息。
+WeChatRobot.py-164-2023-10-01 15:41:58,131-INFO-有新消息
+WeChatRobot.py-164-2023-10-01 15:42:21,938-INFO-有新消息
+WeChatRobot.py-164-2023-10-01 15:42:22,666-INFO-有新消息
+WeChatRobot.py-210-2023-10-01 15:50:50,496-INFO-开始运行！
+WeChatRobot.py-214-2023-10-01 15:50:51,256-INFO-初始化完成
+Funs_Route.py-24-2023-10-01 15:50:51,258-INFO-等待新消息。
+WeChatRobot.py-178-2023-10-01 15:51:19,505-INFO-有新消息
+Funs_Route.py-26-2023-10-01 15:51:19,505-INFO-获得新消息，跳转路由：('+(0v0)', '哔哩哔哩')。
+ranking_crawler.py-29-2023-10-01 15:51:19,624-INFO-哔哩哔哩排行榜爬取成功。
+Funs_Route.py-24-2023-10-01 15:51:19,842-INFO-等待新消息。
+WeChatRobot.py-178-2023-10-01 15:51:20,031-INFO-有新消息
+WeChatRobot.py-178-2023-10-01 15:52:57,836-INFO-有新消息
