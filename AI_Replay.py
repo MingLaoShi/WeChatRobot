@@ -79,7 +79,7 @@ class AI_reply:
             prompt=text, n=1, size="512x512", response_format="url"
         )
         url = response.data[0].url
-        filepath = dowanload_Image_From_Url(url, "aiImage")
+        filepath = dowanload_Image_From_Url(url, "log\\aiImage")
         # filepath="aiImage\\2055f946-cf92-4a9f-9c7c-de5cba67b4a1.png"F
         if filepath != "error":
             self.logger.info(f"从{url}保存图片：{filepath}")

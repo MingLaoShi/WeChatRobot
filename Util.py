@@ -13,7 +13,8 @@ class Instrcutions(Enum):
     CREATE_IMAGE = "%图片"
     COUNTDOWN = "%倒计时"
     RANK_CRAWLER = "%排行榜"
-
+    GEN_QRCODE="%生成二维码"
+    EMOJI_SYN="%表情合成"
 
 def print_help():
     help = (
@@ -22,6 +23,8 @@ def print_help():
         f"{Instrcutions.CREATE_IMAGE.value} 图片描述：生成AI图片\n"
         f"{Instrcutions.COUNTDOWN.value} 时间：开始倒计时,没做好呢别乱用！\n"
         f"{Instrcutions.RANK_CRAWLER.value} 网站名：爬取网站排行榜。\n"
+        f"{Instrcutions.GEN_QRCODE.value} 信息：根据信息生成二维码。\n"
+        f"{Instrcutions.EMOJI_SYN.value} 两个emoji表情：合成两个表情。\n"
         f"注意：如果同一个人在机器人未回复第一条消息时发送相同的第二条消息，机器人是无法识别第二条消息的。这是机器人实现方式本身的缺陷，不是bug！"
     )
     return help

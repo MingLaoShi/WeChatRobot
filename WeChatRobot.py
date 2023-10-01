@@ -5,9 +5,7 @@ from cnocr import CnOcr
 from queue import Queue
 import threading
 import logging
-from enum import Enum
 from Util import send_msg_on_wechat, Instrcutions, print_help
-from AI_Replay import AI_reply
 import Robot_Functions
 from WeChatPanelControl import WeCahtPanelControl
 from Funs_Route import robot_route
@@ -111,6 +109,12 @@ class WeChatRobot:
             elif text.startswith(Instrcutions.RANK_CRAWLER.value):
                 text = text.replace(Instrcutions.RANK_CRAWLER.value, "")
                 self.message_list.put((Instrcutions.RANK_CRAWLER, (msg[0], text)))
+            elif text.startswith(Instrcutions.GEN_QRCODE.value):
+                text = text.replace(Instrcutions.GEN_QRCODE.value, "")
+                self.message_list.put((Instrcutions.GEN_QRCODE, (msg[0], text)))
+            elif text.startswith(Instrcutions.EMOJI_SYN.value):
+                text = text.replace(Instrcutions.EMOJI_SYN.value, "")
+                self.message_list.put((Instrcutions.EMOJI_SYN, (msg[0], text)))
             else:
                 send_msg_on_wechat("未知指令！", print_help())
         elif not self.using_name:
