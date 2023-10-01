@@ -13,7 +13,7 @@ from Util import Instrcutions
 class AI_reply:
     def __init__(self, logger) -> None:
         self.api_key = (
-            "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"  # 换成你的openai api key
+            ""  # 换成你的openai api key
         )
         openai.api_key = self.api_key
         openai.proxy = "http://127.0.0.1:7890"  # 设置下代理，否则连不上网络
